@@ -10,7 +10,7 @@ setup(
     author='Yulia Kravtsova',
     author_email='yuvwwa@gmail.com',
     url='https://github.com/yuvwwa/PyPI.git',
-    packages=find_packages(),
+    packages=['mtracker'],
     install_requires=[],
     extras_require={
         'test': ['pytest', 'coverage']
